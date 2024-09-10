@@ -5,10 +5,13 @@
 % Definitions
 % ====================
 
-\definecolor{lightgray}{RGB}{245, 246, 250}
-\definecolor{blue}{RGB}{0, 48, 86}
-\definecolor{darkblue}{RGB}{39, 60, 117}
-\definecolor{lightblue}{RGB}{232, 244, 255}
+% https://www.uni-mannheim.de/cd/marke/farben/
+\definecolor{base}{cmyk}{1,0.6,0.1,0.6}
+\definecolor{base10}{RGB}{230, 234, 238}
+\definecolor{base25}{RGB}{180, 188, 206}
+
+\definecolor{accent}{cmyk}{0.35, 0.25, 0.25, 0}
+
 
 % ====================
 % Theme
@@ -19,32 +22,32 @@
 \setbeamercolor{palette secondary}{fg=black,bg=white}
 \setbeamercolor{palette tertiary}{bg=black,fg=white}
 \setbeamercolor{palette quaternary}{fg=black,bg=white}
-\setbeamercolor{structure}{fg=darkblue}
+\setbeamercolor{structure}{fg=base}
 
 % Headline
-\setbeamercolor{headline}{fg=lightgray,bg=blue}
-\setbeamercolor{headline rule}{bg=darkblue}
+\setbeamercolor{headline}{fg=white,bg=base}
+\setbeamercolor{headline rule}{bg=accent}
 
 % Block
-\setbeamercolor{block title}{fg=blue,bg=white}
+\setbeamercolor{block title}{fg=base,bg=white}
 \setbeamercolor{block separator}{bg=black}
 \setbeamercolor{block body}{fg=black,bg=white}
 
 % Alert Block
-\setbeamercolor{block alerted title}{fg=blue,bg=lightblue}
+\setbeamercolor{block alerted title}{fg=base,bg=base25}
 \setbeamercolor{block alerted separator}{bg=black}
-\setbeamercolor{block alerted body}{fg=black,bg=lightblue}
+\setbeamercolor{block alerted body}{fg=black,bg=base25}
 
 % Example Block
-\setbeamercolor{block example title}{fg=blue,bg=lightgray}
+\setbeamercolor{block example title}{fg=base,bg=base10}
 \setbeamercolor{block example separator}{bg=black}
-\setbeamercolor{block example body}{fg=black,bg=lightgray}
+\setbeamercolor{block example body}{fg=black,bg=base10}
 
 % Heading
 \setbeamercolor{heading}{fg=black}
 
 % Itemize
-\setbeamercolor{item}{fg=darkblue}
+\setbeamercolor{item}{fg=base}
 
 % Bibliography
 \setbeamercolor{bibliography item}{fg=black}
